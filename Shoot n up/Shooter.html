@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Survival Shooter </title>
+    </head>
+
+    <body>
+        <canvas id="canvas"></canvas>
+        <script src="engine/Vector2.js"></script>
+        <script src="functions.js"></script>
+        <script src="engine/Component.js"></script>
+        <script src="engine/Components/Transform.js"></script>
+        <script src="engine/Components/Triangle.js"></script>
+        <script src="engine\EngineFile.js"></script>        
+        <script src="engine/Input.js"></script>
+        <script src="engine/Components/Camera.js"></script>
+        <script src="engine/GameObject.js"></script> 
+        <script src="engine\SceneManager.js"></script>       
+        <script src="engine/Scene.js"></script>
+        <script src="game\Scenes\TitleScene.js"></script>
+        <script src="game/Scenes/ArenaScene.js"></script>
+        <script src="game\Scenes\Tutorial.js"></script>
+        <script src="engine/Time.js"></script>
+        <script src="engine/Line.js"></script>
+        <script src="engine\Components\RigidBody.js"></script>
+        <script src="engine\Components\ButtonController.js"></script>
+        <script src="game/components/GunController.js"></script>
+        <script src="game/components/playerController.js"></script>
+        <script src="engine\Components\ColliderController.js"></script>
+        <script src="engine/ColliderOperator.js"></script>
+        <script src="game\prefabs\ArenaButton.js"></script>
+        <script src="game\prefabs\TutorialButton.js"></script>
+        <script src="game\prefabs\TitleButton.js"></script>
+        <script src="game\prefabs\TutorialText.js"></script>
+        <script src="engine\Components\GlobalLight.js"></script>
+        <script src="engine\Components\LightSource.js"></script>
+        <script src="engine\Components\ParticleSystem.js"></script>
+        <script src="engine\Components\CameraController.js"></script>
+        <script src="engine\Camera.js"></script>
+        <script src="game\prefabs\Explosion.js"></script>
+        <script src="game\prefabs\BounceParticles.js"></script>
+        <script src="game\prefabs\DarkRoom.js"></script>
+        <script src="game\prefabs\Title.js"></script>
+        <script src="game\prefabs\Score.js"></script>
+        <script src="game/components/SpawnController.js"></script>
+        <script src="game\components\CoinController.js"></script>
+        <script src="game\components\BlueCoinController.js"></script>
+        <script src="game\components\YellowCoinController.js"></script>
+        <script src="game\prefabs\Coin.js"></script>
+        <script src="game/components/EnemyController.js"></script>
+        <script src="game/components/SpawnLocCont.js"></script>
+        <script src="game/prefabs/EnemySpawnLoc.js"></script>
+        <script src="game/prefabs/EnemySpawner.js"></script>
+        <script src="game/prefabs/Enemy.js"></script>
+        <script src="engine\Components\Text.js"></script>
+        <script src="game\components\ScoreController.js"></script>
+        <script src="game/prefabs/gun.js"></script>
+        <script src="game/prefabs/Player.js"></script>
+        <script src="game\prefabs\HealthUI.js"></script>
+        <script src="game/components/BulletController.js"></script>
+        <script src="game/prefabs/Bullet.js"></script>
+        <script src="Tests.js"></script>
+
+    
+        <script>
+            SceneManager.loadScene(new TitleScene())
+            Engine.start()
+        </script>
+    
+    </body>
+</html>

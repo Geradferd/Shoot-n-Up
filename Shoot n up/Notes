@@ -1,0 +1,38 @@
+__Physics__
+MTV is the Minimum Transform Vector
+
+
+__Collison__
+for each object's collison:
+    check if they collide with any other object
+
+- you don't want to be falling faster thanyour terminal veracity
+- friction attaches you to the object
+
+cinamatic rigit body: object crontrolled by a operator
+
+10/13/2025
+- never use atan(Y/X), use atan2(Y, X)
+
+model space: 
+
+world space:
+
+camera space: 
+
+screen space: 
+
+
+---------------- To Do List ---------------------
+- objects with a high layer value are drawn first
+- title screen needed
+
+
+-------- 10/22/2025 --------
+- 3D shooter games first got being called DOOM clones
+- Dota started as a War Craft 3 mod
+- later made on its own engine called Dota 2
+- how do you translate a mouse position to a position
+  in the game world
+- what is a DOMPoint
+- in-line game objects are for one time use
